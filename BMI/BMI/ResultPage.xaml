@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMI.ResultPage"
+             BackgroundImageSource="bg.jpg"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout >
+            <Label
+                x:Name="resultBmi" 
+                Padding="30"
+                HorizontalOptions="Center"
+                TextColor="White"
+                FontSize="55"
+                ></Label>
+            <Label
+                x:Name="resultBmi1" 
+                Padding="20"
+                HorizontalOptions="Center"
+                TextColor="White"
+                FontSize="20"
+                ></Label>
+            <Frame
+                BackgroundColor="White"
+                 x:Name="burningf"
+                Background="burn1.jpg"
+                WidthRequest="300"
+                HeightRequest="80"
+                CornerRadius="40"
+                HasShadow="True"             
+                HorizontalOptions="CenterAndExpand"
+                >
+                <Button
+                    x:Name="burning"
+                    Text="Fat burning "
+                   TextColor="DarkBlue"
+                    BackgroundColor="White"
+                    FontSize="25"
+                    Clicked="burning_Clicked"
+                    >
+                    
+                </Button>
+            </Frame>
+            <Frame
+                x:Name="maintainf"
+                BackgroundColor="White"
+                WidthRequest="300"
+                HeightRequest="80"
+                CornerRadius="40"
+                HasShadow="True"
+                HorizontalOptions="CenterAndExpand"
+                >
+                <Button
+                    x:Name="maintain"
+                    Text="Maintain Muscles "
+                   TextColor="DarkBlue"
+                    BackgroundColor="White"
+                    FontSize="25"
+                    Clicked="maintain_Clicked"
+                    >
+
+                </Button>
+            </Frame>
+            <Frame
+                BackgroundColor="White"
+                x:Name="Habitsf"
+                WidthRequest="300"
+                HeightRequest="80"
+                CornerRadius="40"
+                HasShadow="True"
+                HorizontalOptions="CenterAndExpand"
+                >
+
+                <Button
+                    x:Name="Habits"
+                    Text="Change Habits "
+                   TextColor="DarkBlue"
+                    BackgroundColor="White"
+                    FontSize="25"
+                    Clicked="Habits_Clicked"
+                    >
+
+                </Button>
+            </Frame>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

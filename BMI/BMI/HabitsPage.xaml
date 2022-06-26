@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMI.HabitsPage"
+             BackgroundImageSource="bg.jpg"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout >
+            <Image Source="hab.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+            <Frame
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="100"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue"
+                >
+                <Label TextColor="White" FontSize="20"> If you want to change your body, you need to change your lifestyle. There is some habits for you to be better. 
+                    </Label>
+            </Frame>
+            <Image Source="HealtyEat.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+
+            <Frame 
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="100"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue">
+                    <Label TextColor="White" FontSize="15">Eat Healty food will keep you healty. Eat the food closest to what nature gives it. It is the best way to satisfy your body's needs for myco and macro nutrients.
+                    </Label>
+            </Frame>
+            <Image Source="Junk.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+            <Frame
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="100"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue">
+                    <Label TextColor="White" FontSize="15">Avoid junk food. It is a fast food that is mostly unhealthily baked, fried and processed. It is full of unhealthy carbohydrates and fats. But sometimes you can reward yourself with a junk meal, but be careful you deserve it.
+                    </Label>
+            </Frame>
+            <Image Source="vege.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+            <Frame
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="110"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue">
+                    <Label TextColor="White" FontSize="15">If you add vegetables to every meal of the day, you will find it very difficult to overeat. This will make it easier for you to stay within your required calories and get a large amount of fiber and vitamins. Also, vegetables have a large volume and you will never stay hungry.</Label>
+            </Frame>
+                <Image Source="protein.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+                <Frame
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="80"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue">
+                    <Label TextColor="White" FontSize="15">
+                        Protein is the building block of our body. Foods rich in protein can saturate you for a long time, and protein also helps you build muscle mass. Add protein to every meal.
+                    </Label>
+                </Frame>
+                <Image Source="water.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+                <Frame
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="80"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue">
+                    <Label TextColor="White" FontSize="15">
+                        Our body is 70% water. Drink water and eat water-rich foods, always stay hydrated. Replace all water drinks and you have already made a big step in cutting unnecessary calories.</Label>
+                </Frame>
+            </StackLayout></ScrollView>
+    </ContentPage.Content>
+</ContentPage>

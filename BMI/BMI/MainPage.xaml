@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMI.MainPage"
+             BackgroundImageSource="bg.jpg"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout >
+        
+    <Label 
+        Text="BMI Calculator" 
+        TextColor="WhiteSmoke" 
+        FontSize="35" 
+        FontAttributes="Bold"
+        Padding="80" 
+        TextDecorations="Underline"
+        HorizontalTextAlignment="Center">
+        
+    </Label>
+        
+        <Frame 
+            HeightRequest="40" 
+            WidthRequest="300" 
+            HasShadow="True"  
+            HorizontalOptions="CenterAndExpand"  
+            CornerRadius="50">  
+            <Entry 
+                x:Name="WeightCon"  
+                Placeholder="Enter your weight"
+                TextColor="DarkBlue" 
+                >
+               
+            </Entry>
+        </Frame>
+        
+        <Frame 
+            HeightRequest="40" 
+            WidthRequest="300" 
+            HasShadow="True"           
+            HorizontalOptions="CenterAndExpand" 
+            CornerRadius="50">
+            
+            <Entry  
+                
+                ClearButtonVisibility="WhileEditing"
+                x:Name="HeightCon" 
+                Placeholder="Enter your height"
+                TextColor="DarkBlue" ></Entry>
+        </Frame>
+        <Button 
+            Clicked="Button_Clicked" 
+            Text="Calculate"  
+            TextColor="White"
+            BackgroundColor="Transparent" 
+            BorderWidth="2" 
+            BorderColor="White"
+            Margin="80"
+            WidthRequest="200"
+            HeightRequest="52"
+            HorizontalOptions="Center"
+            Command="{Binding GoToGenderPageCommand, Mode=OneWay}">
+           
+         </Button>
+        
+        
+    </StackLayout>
+    
+
+</ContentPage>

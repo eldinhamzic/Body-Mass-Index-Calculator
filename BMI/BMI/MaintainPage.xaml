@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMI.MaintainPage"
+             BackgroundImageSource="bg.jpg"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout >
+            <Image Source="prot.jpg" HorizontalOptions="Center"   WidthRequest="300"  ></Image>
+            <Frame
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                
+                HeightRequest="100"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue"
+                >
+                <Label TextColor="White" FontSize="15" >
+                    Eat protein. The body breaks down protein-rich foods into amino acids, which it uses to build muscle. Protein sources such as chicken, turkey, fish, eggs, red meat, yogurt and beans are good sources of protein to build muscle.
+                </Label>
+            </Frame>
+            <Image Source="gymaat.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+
+            <Frame 
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="100"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue">
+                <Label TextColor="White" FontSize="15">Resistance train. A consistent strength training routine builds muscle mass. Aim for two to three 30-minute sessions per week. (Always consult with a physician first.) Local community classes or working with a personal trainer are great ways to get started.
+                    
+                </Label>
+            </Frame>
+            <Image Source="supl.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+            <Frame
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="100"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue">
+                <Label TextColor="White" FontSize="15"> Suplements. Creatin, whey protein, omega 3, multivitamins and other suplements can help you to maintain your muscle mass. This is just suplements, not a whole meal.
+                    
+                </Label>
+            </Frame>
+            <Image Source="walk.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+            <Frame
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="100"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue">
+                <Label TextColor="White" FontSize="15">Walk. Walking increases your mobility and enhances blood flow. Aerobic exercise is beneficial to your body’s response to insulin, which helps with muscle repair. Taking 10-minute walking breaks throughout the day can help you maintain muscle mass.</Label>
+            </Frame>
+            
+        </StackLayout></ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMI.FatBurningPage"
+             BackgroundImageSource="bg.jpg"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout >
+
+                
+            
+            <Image Source="traing.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+            <Frame
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="200"
+                BorderColor="Black"
+                BackgroundColor="Transparent"
+                >
+                    <Label TextColor="White" FontSize="15">Research reveals that strength training has multiple health benefits, especially when it comes to fat loss. According to a review of 58 studies, resistance training for at least 4 weeks may help decrease body fat by an average of 1.46%. It may also significantly reduce body fat mass and visceral fat, which is a type of fat that surrounds the organs in your belly.
+                        Another study showed that 5 months of strength training was more effective at reducing body fat in adolescents with obesity than aerobic exercise alone</Label>
+                    
+             </Frame>
+                <Image Source="prot.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+            
+                <Frame 
+                    WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                    HeightRequest="160"
+                BorderColor="Black"
+                BackgroundColor="Transparent">
+                    <Label TextColor="White" FontSize="15">Eating more protein-rich foods may help reduce your appetite and increase fat burning.
+In fact, multiple studies have associated eating more high quality protein with a lower risk of excess body fat and obesity.
+Other research indicates that a high protein diet may help preserve muscle mass and metabolism during weight loss.
+                    </Label>
+                </Frame>
+                <Image Source="moon.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+                <Frame
+                    WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="160"
+                BorderColor="Black"
+                BackgroundColor="Transparent">
+                    <Label TextColor="White" FontSize="15">Going to bed a bit earlier or setting your alarm clock a little later is a simple strategy to help you reach and maintain a healthy weight.
+In fact, several studies associate sufficient sleep with weight loss.
+One 10-year study linked sleeping fewer than 6 hours per night to a higher risk of obesity among young women.
+
+                    </Label>
+                </Frame>
+                <Image Source="water.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+                <Frame
+                    WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="200"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue">
+                    <Label TextColor="White" FontSize="15">Swapping out sugary drinks for healthier selections is one of the easiest ways to promote long-term, sustainable fat loss.
+For example, sugar-sweetened beverages like soda are often packed with calories and offer little nutritional value. Alcohol is also high in calories and may lower inhibitions, which may increase your risk of overeating.
+Studies have associated drinking both sugar-sweetened beverages and alcohol with a higher risk of excess belly fat.
+Instead, opt for calorie-free beverages like water or green tea.</Label>
+            </Frame>
+                <Image Source="cardio.jpg" HorizontalOptions="Center" WidthRequest="300" ></Image>
+                <Frame
+                    WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                HeightRequest="180"
+                BorderColor="Black"
+                BackgroundColor="DeepSkyBlue"
+                >
+                    <Label TextColor="White" FontSize="15">Cardio, also known as aerobic exercise, is one of the most common forms of exercise. It’s any type of exercise that specifically trains the heart and lungs.
+Adding cardio to your routine may be one of the most effective ways to enhance fat burning and weight loss.
+For example, one review of 15 studies tied increased aerobic exercise to decreased belly fat in middle-age women</Label>
+            </Frame>
+    
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
